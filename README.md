@@ -1,0 +1,2 @@
+creating a raylib_wasm inplimentation for web, inspired by Tsoding Daily ytb: [text](https://www.youtube.com/@TsodingDaily)
+In this project I aim to understand how wasm works and how can I compile existing raylib games to wasm without using ecmascripten
