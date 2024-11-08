@@ -10,7 +10,7 @@ static Vector2 velocity = {200, 200};
 
 void GameFrame(){
     BeginDrawing();
-    ClearBackground(RED);
+    ClearBackground(RAYWHITE);
     float dt = GetFrameTime();
     float x =  rect.x + velocity.x*dt;
     if((rect.x < 0 && velocity.x < 0)|| (rect.x  + rect.width >= GetScreenWidth() && velocity.x > 0 )){
@@ -23,7 +23,7 @@ void GameFrame(){
     }
     rect.y  = y;
     // DrawRectangleRec(rect, BLACK);
-    DrawRectangle(rect.x, rect.y, rect.width, rect.height, BLACK);
+    DrawRectangle(rect.x, rect.y, rect.width, rect.height, DARKBLUE);
     EndDrawing();
 }
 void print(char * a);
